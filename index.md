@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R.E.L.I.C. - Research for Enhanced Longevity In Crisis</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Syncopate', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #0a2540, #081b2f);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: .8rem;
+    }
+
+    header h1 {
+      font-size: 4.3rem;
+      margin-bottom: 0.8rem;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    nav {
+      background-color: #0a2540;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff4a4a;
+    }
+
+    .hero {
+      background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png'), linear-gradient(to right, #0a2540, #c1121f);
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero h3 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      line-height: 1.6;
+    }
+
+    .apply-button {
+      background-color: #c1121f;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .apply-button:hover {
+      background-color: #a10e1a;
+    }
+
+    .compliance-banner {
+      background-color: #0a2540;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .compliance {
+      font-size: 1.1rem;
+      color: #ccc;
+      font-style: italic;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://kappa.lol/4CH4SH.png" alt="R.E.L.I.C. Logo" class="logo">
+    <h1>R.E.L.I.C.</h1>
+    <p>"Advancing medicine at the edge of possibility"</p>
+  </header>
+
+  <nav>
+    <a href="#">About</a>
+    <a href="#">Research</a>
+    <a href="#">Technology</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to the Future!</h2>
+    <h3>Research for Enhanced Longevity In Crisis</h3>
+    <p>
+      Here at R.E.L.I.C. we are committed to improving lives and protecting your future. With our efforts to stop the advancement of rampant diseases affecting lives everywhere – as well as provide treatments for chronic pain and debilitating conditions – our cutting-edge technology has allowed us to procure several promising solutions to these concerns.
+    </p>
+    <p>
+      We are currently accepting applications for participants for our clinical trials. If you are ready to change the future, reach out today — slots are very limited.
+    </p>
+    <a href="apply.html" class="apply-button">Apply to Participate</a>
+  </section>
+
+  <section class="compliance-banner">
+    <p class="compliance">
+      🧾 IRB Approval Code: [DATA EXPUNGED]<br>
+      🔒 Confidentiality guaranteed | Compliance not optional
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 R.E.L.I.C. — All rights reserved.</p>
+  </footer>
+</body>
+</html>
